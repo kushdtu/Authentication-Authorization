@@ -9,12 +9,6 @@ Over the past several months, we've seen major breaches exposing numerous userna
 Though hashing and encryption both provide valuable capabilities, for the vast majority of situations, there is only one right option for storing user passwords for an online application: hashing. This is a one-way function in which a hashed value cannot be reversed to obtain the original input value (i.e., the password). Symmetric encryption is based on the use of an encryption key and is a reversible operation. Anyone possessing the key can decrypt an encrypted value to obtain the original value.
 </p>
 
-<h5>
-Table 1: Differences Between Hashing and Symmetric Encryption
+<h5>Table 1: Differences Between Hashing and Symmetric Encryption
 
-<p>|Hashing|Symmetric Encryption
------|-----|-----
-<p>|One-way function|Reversible Operation
-Invertible Operation?|No|Yes
-title|title|title
-conte|conte|conte
+![](img/hashingvsSymmetric.png)
